@@ -9,7 +9,7 @@
     {
         "id": 2,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGjbnzz_sB04rf3unB_lNXYpPWmQi7JGyanUprupBxCUODTQNqxtYcAqMwCkpHQKhAZrg&usqp=CAU",
-        "name": "Python Course - Intermediate",
+        "name": "Python Course-Intermediate",
         "description": "An Intermediate Python Course",
         "price": 29.99
     },
@@ -64,7 +64,7 @@
     },
     {
         "id": 10,
-        "image": "https://i.pinimg.com/originals/28/57/60/285760063bb1ff567418551b643d0926.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9IL8bXDY8wSZxy3Phvg04DUbBvIWjWjVLxQ&usqp=CAU",
         "name": "Javascript Course - Beginner",
         "description": "An Introductory Javascript Course",
         "price": 19.99
@@ -72,7 +72,7 @@
     {
         "id": 11,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuDQ75IixBpaF2_BR99IZtoOhV3YscPamK1w&usqp=CAU",
-        "name": "Javascript Course - Intermediate",
+        "name": "Javascript Course-Intermediate",
         "description": "An Intermediate Javascript Course",
         "price": 29.99
     },
@@ -80,7 +80,7 @@
         "id": 12,
         "image": "https://prod-discovery.edx-cdn.org/media/course/image/c50943b5-3375-4d50-9f91-911930551603-5703bb2a02c8.small.png",
         "name": "Javascript Course - Advanced",
-        "description": "An Advanced Javascript Course",
+        "description": "An Advanced Javascript Course for students",
         "price": 39.99
     }
 ]
