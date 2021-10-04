@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqkr-8zfNxPpyDYFqQaTzHI1OarMLKDQiJXQ&usqp=CAU",
+        "name": "Python Course - Beginner",
+        "description": "An Introductory Python Course",
+        "price": 19.99
+    },
+    {
+        "id": 2,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGjbnzz_sB04rf3unB_lNXYpPWmQi7JGyanUprupBxCUODTQNqxtYcAqMwCkpHQKhAZrg&usqp=CAU",
+        "name": "Python Course - Intermediate",
+        "description": "An Intermediate Python Course",
+        "price": 29.99
+    },
+    {
+        "id": 3,
+        "image": "https://i.ytimg.com/vi/_uQrJ0TkZlc/maxresdefault.jpg",
+        "name": "Python Course - Advanced",
+        "description": "An Advanced Python Course",
+        "price": 39.99
+    },
+    {
+        "id": 4,
+        "image": "https://i.ytimg.com/vi/1Rs2ND1ryYc/maxresdefault.jpg",
+        "name": "CSS Course - Beginner",
+        "description": "An Introductory CSS Course",
+        "price": 19.99
+    }
+]

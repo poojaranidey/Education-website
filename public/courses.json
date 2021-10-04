@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqkr-8zfNxPpyDYFqQaTzHI1OarMLKDQiJXQ&usqp=CAU",
+        "name": "Python Course - Beginner",
+        "description": "An Introductory Python Course",
+        "price": 19.99
+    },
+    {
+        "id": 2,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGjbnzz_sB04rf3unB_lNXYpPWmQi7JGyanUprupBxCUODTQNqxtYcAqMwCkpHQKhAZrg&usqp=CAU",
+        "name": "Python Course - Intermediate",
+        "description": "An Intermediate Python Course",
+        "price": 29.99
+    },
+    {
+        "id": 3,
+        "image": "https://i.ytimg.com/vi/_uQrJ0TkZlc/maxresdefault.jpg",
+        "name": "Python Course - Advanced",
+        "description": "An Advanced Python Course",
+        "price": 39.99
+    },
+    {
+        "id": 4,
+        "image": "https://i.ytimg.com/vi/1Rs2ND1ryYc/maxresdefault.jpg",
+        "name": "CSS Course - Beginner",
+        "description": "An Introductory CSS Course",
+        "price": 19.99
+    },
+    {
+        "id": 5,
+        "image": "https://i.ytimg.com/vi/ieTHC78giGQ/maxresdefault.jpg",
+        "name": "CSS Course - Intermediate",
+        "description": "An Intermediate CSS Course",
+        "price": 29.99
+    },
+    {
+        "id": 6,
+        "image": "https://online-learning.harvard.edu/sites/default/files/styles/card/public/course/CS50x_web_4-modified.jpg?itok=9c5reJCa",
+        "name": "CSS Course - Advanced",
+        "description": "An Advanced CSS Course",
+        "price": 39.99
+    },
+    {
+        "id": 7,
+        "image": "https://html.com/wp-content/uploads/html-tutorial-beginners-header.jpg",
+        "name": "HTML Course - Beginner",
+        "description": "An Introductory HTML Course",
+        "price": 19.99
+    },
+    {
+        "id": 8,
+        "image": "https://eyelearn.org/ma-stu-gallery/miniProj-2014/book/catia/imgs/triplicate.jpg",
+        "name": "HTML Course - Intermediate",
+        "description": "An Intermediate HTML Course",
+        "price": 29.99
+    },
+    {
+        "id": 9,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjD5e-Zb64Rjq5a6ide4Hntbuf2wNIdX3o7Q&usqp=CAU",
+        "name": "HTML Course - Advanced",
+        "description": "An Advanced HTML Course",
+        "price": 39.99
+    },
+    {
+        "id": 10,
+        "image": "https://i.pinimg.com/originals/28/57/60/285760063bb1ff567418551b643d0926.jpg",
+        "name": "Javascript Course - Beginner",
+        "description": "An Introductory Javascript Course",
+        "price": 19.99
+    },
+    {
+        "id": 11,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuDQ75IixBpaF2_BR99IZtoOhV3YscPamK1w&usqp=CAU",
+        "name": "Javascript Course - Intermediate",
+        "description": "An Intermediate Javascript Course",
+        "price": 29.99
+    },
+    {
+        "id": 12,
+        "image": "https://prod-discovery.edx-cdn.org/media/course/image/c50943b5-3375-4d50-9f91-911930551603-5703bb2a02c8.small.png",
+        "name": "Javascript Course - Advanced",
+        "description": "An Advanced Javascript Course",
+        "price": 39.99
+    }
+]

@@ -1,0 +1,14 @@
+.trainers{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:5px;
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    justify-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.trainer-image{
+   
+    height: 300px;
+}
