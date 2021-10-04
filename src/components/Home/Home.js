@@ -6,6 +6,7 @@ import "./Home.css"
 
 
 const Home = () => {
+    // home section with services,courses ,trainers
     return (
         <div>
             <Carousel variant="dark">
@@ -46,11 +47,13 @@ const Home = () => {
                 </div>
                 <div className="course-details">
                     <h1>We Care About Your eduction For Better.</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta impedit officia quibusdam modi possimus blanditiis corrupti quisquam repudiandae quae quo!</p>
+                    <p>Learning to code means more than just memorizing syntax. Instead, we help you think like a real programmer.</p>
                     <h2>Master Certified Coach</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Get a helpful roadmap.
+                        Like a career advisor, we guide you through each step. You’ll learn the right thing at the right time, all in one place.</p>
                     <h2>Coach Certification Program</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Get job ready.
+                        Gain practical experience as you go by creating portfolio-worthy projects that will help you land your next job.</p>
                     <Link to="./trainers"><Button variant="outline-primary">Read more...</Button>{' '}</Link>
                 </div>
             </div>

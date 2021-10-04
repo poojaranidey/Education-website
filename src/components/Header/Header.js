@@ -4,6 +4,7 @@ import "./Header.css"
 
 
 const Header = () => {
+    // Header section 
     return (
         <div>
             <Navbar bg="dark" variant="dark">

@@ -14,12 +14,15 @@ const Courses = () => {
     }, [])
 
     return (
+        // All courses 
         <div>
+
             <Container>
-                <div className=" course ">
+                <div className=" course  ">
 
                     {
                         course.map(cr => <Online
+                            key={cr.name}
                             cr={cr}>
 
                         </Online>)

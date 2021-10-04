@@ -4,6 +4,7 @@ import { Card, Col, Container, Form, Row } from 'react-bootstrap';
 import "./Trainers.css"
 
 const Trainers = () => {
+    // all trainers section 
     return (
         <div className="mb-5 py-5 ">
             <h1>Best trainers to guide you for best lessons</h1>
@@ -60,6 +61,30 @@ const Trainers = () => {
                 <Card border="info" style={{ width: '25rem' }}>
                     <Card.Img variant="top" className="trainer-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWmyyW9FScO_FM6A4KER_m5FsDYD9yoGOOy3yCyalF3w5TugMf9hixMxwPzdxj5Cl0-E&usqp=CAU" />
                     <Card.Header>Dr.james j</Card.Header>
+                    <Card.Body>
+                        <Card.Title>web development trainer</Card.Title>
+
+                    </Card.Body>
+                </Card>
+                <Card border="info" style={{ width: '25rem' }}>
+                    <Card.Img variant="top" className="trainer-image" src="http://www.pythonext.com/blog/assets/images/gettyimages-1066558024-768x432.jpg" />
+                    <Card.Header>jessica shemin</Card.Header>
+                    <Card.Body>
+                        <Card.Title>Html,css,javascript trainer</Card.Title>
+
+                    </Card.Body>
+                </Card>
+                <Card border="info" style={{ width: '25rem' }}>
+                    <Card.Img variant="top" className="trainer-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK_Vf40SLAko-m_-k41UofnCh78mEojFpvxQ&usqp=CAU" />
+                    <Card.Header>Ragesh ruinse</Card.Header>
+                    <Card.Body>
+                        <Card.Title>Machine Learning trainer</Card.Title>
+
+                    </Card.Body>
+                </Card>
+                <Card border="info" style={{ width: '25rem' }}>
+                    <Card.Img variant="top" className="trainer-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUlb3rwkGpLQ0N-gys7JbAt-YBEqPj_5IOA&usqp=CAU" />
+                    <Card.Header>shahil james j</Card.Header>
                     <Card.Body>
                         <Card.Title>web development trainer</Card.Title>
 

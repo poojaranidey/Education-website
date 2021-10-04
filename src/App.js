@@ -12,10 +12,6 @@ import Trainers from './components/Trainers/Trainers';
 import ContactUs from './components/ContactUs/ContactUs';
 import Footer from './components/Footer/Footer';
 
-
-
-
-
 function App() {
   return (
     <div className="App">
@@ -25,24 +21,24 @@ function App() {
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path='/home'>
+          <Route exact path='/home'>
             <Home></Home>
           </Route>
           <Route path="/about">
             <About></About>
           </Route>
-          <Route path="/trainers">
+          <Route exact path="/trainers">
             <Trainers></Trainers>
           </Route>
 
 
-          <Route path="/services">
+          <Route exact path="/services">
             <Services></Services>
           </Route>
-          <Route path="/contactus">
+          <Route exact path="/contactus">
             <ContactUs></ContactUs>
           </Route>
-          <Route path="*">
+          <Route exact path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>

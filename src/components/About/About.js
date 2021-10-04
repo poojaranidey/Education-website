@@ -4,16 +4,17 @@ import "./About.css"
 
 const About = () => {
     return (
+        // about section......
         <div className="mb-5 pb-2">
 
-            <section class="container mt-2 pb-5">
-                <h1 class="fw-bold text-center pb-5 mt-2">People Why Choose Our Coachs
+            <section className="container mt-2 pb-5">
+                <h1 className="fw-bold text-center pb-5 mt-2">People Why Choose Our Coachs
                 </h1>
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <img src="https://content.techgig.com/thumb/msid-78956714,width-860,resizemode-4/Top-10-websites-to-learn-programming-in-2020.jpg?77507" class="w-100 p-5" alt=""></img>
+                <div className="row align-items-center">
+                    <div className="col-lg-6">
+                        <img src="https://content.techgig.com/thumb/msid-78956714,width-860,resizemode-4/Top-10-websites-to-learn-programming-in-2020.jpg?77507" className="w-100 p-5" alt=""></img>
                     </div>
-                    <div class="col-lg-6">
+                    <div className="col-lg-6">
                         <Accordion>
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>We Teach You How To Coach Yourself</Accordion.Header>
@@ -47,6 +48,7 @@ const About = () => {
                 </div>
             </section>
             <div>
+
                 <h1>Book your name for our upcoming events..</h1>
                 <div
                     className="container education-bg-info pb-2  rounded-3" id="subscribe">
@@ -64,7 +66,7 @@ const About = () => {
                     <Form.Control type="subject" placeholder="Enter your subject" />
                     <br />
 
-                    <button class="Submit-now">SUBMIT</button>
+                    <button className="Submit-now">SUBMIT</button>
 
                 </div>
             </div>

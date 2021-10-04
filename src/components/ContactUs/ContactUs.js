@@ -4,46 +4,47 @@ import "./ContactUs.css"
 
 const ContactUs = () => {
     return (
+        // contact us section 
         <div>
 
             <div>
                 <section>
-                    <div class="container my-2 py-2">
-                        <div class="row">
-                            <div class="col-lg-8 offset-lg-2 col-12">
-                                <div class="row">
-                                    <div class="col-lg-12 col-12 p-3 contact-us">
-                                        <h2 class="text-black fw-bold text-center p-3">CONTACT<span
-                                            class="text-style">-US</span>
+                    <div className="container my-2 py-2">
+                        <div className="row">
+                            <div className="col-lg-8 offset-lg-2 col-12">
+                                <div className="row">
+                                    <div className="col-lg-12 col-12 p-3 contact-us">
+                                        <h2 className="text-black fw-bold text-center p-3">CONTACT<span
+                                            className="text-style">-US</span>
                                         </h2>
 
                                     </div>
                                 </div>
-                                <div class="row bg-light pt-3 pb-3 mb-4">
-                                    <div class="col-lg-12">
+                                <div className="row bg-light pt-3 pb-3 mb-4">
+                                    <div className="col-lg-12">
                                         <h6>ADDRESS :</h6>
                                     </div>
-                                    <div class="col-lg-4 col-4">
+                                    <div className="col-lg-4 col-4">
                                         10 no. C,k ghosh road,
                                         sankipara mohor road dewari bazar,Mymensingh.
                                     </div>
-                                    <div class="col-lg-4 col-4">
-                                        <p class="m-0 text-danger"><i class="fa fa-phone-square" aria-hidden="true"></i>
+                                    <div className="col-lg-4 col-4">
+                                        <p className="m-0 text-danger"><i className="fa fa-phone-square" aria-hidden="true"></i>
                                             +8801712345678
                                         </p>
-                                        <p class="m-0 text-info"><i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p className="m-0 text-info"><i className="fa fa-envelope" aria-hidden="true"></i>
                                             example@gmail.com
                                         </p>
                                     </div>
-                                    <div class="col-lg-4 col-4 address-icon text-center text-danger">
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <div className="col-lg-4 col-4 address-icon text-center text-danger">
+                                        <i className="fa fa-map-marker" aria-hidden="true"></i>
                                     </div>
                                 </div>
-                                <div class="row bg-light pt-3 pb-3 mb-4">
-                                    <div class="col-lg-6 col-12">
+                                <div className="row bg-light pt-3 pb-3 mb-4">
+                                    <div className="col-lg-6 col-12">
                                         <form>
-                                            <div class="form-row mb-3">
-                                                <div class="col mb-2">
+                                            <div className="form-row mb-3">
+                                                <div className="col mb-2">
                                                     <Form.Label>Student's Name</Form.Label>
                                                     <Form.Control type="name" placeholder="Enter your name" />
                                                 </div>
