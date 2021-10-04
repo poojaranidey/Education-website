@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { Button, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Online from '../Online/Online';
+import "./Courses.css"
 
 const Courses = () => {
     const [course, setCourse] = useState([]);
@@ -15,15 +16,20 @@ const Courses = () => {
     return (
         <div>
             <Container>
-                <div className="course-container">
+                <div className=" course ">
+
                     {
                         course.map(cr => <Online
+                            cr={cr}>
 
-                            cr={course}></Online>)
+                        </Online>)
+
+
                     }
-                    <Link to="/services">
-                        <Button variant="outline-primary">view all courses...</Button>{' '}</Link>
+
                 </div>
+                <Link className="d-flex justify-content-center my-5 view-link" to="/services">
+                    <Button variant="outline-primary">view all courses...</Button>{' '}</Link>
             </Container>
         </div>
     );

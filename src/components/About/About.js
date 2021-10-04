@@ -4,9 +4,9 @@ import "./About.css"
 
 const About = () => {
     return (
-        <div>
+        <div className="mb-5 pb-2">
 
-            <section class="container mt-2">
+            <section class="container mt-2 pb-5">
                 <h1 class="fw-bold text-center pb-5 mt-2">People Why Choose Our Coachs
                 </h1>
                 <div class="row align-items-center">
@@ -49,7 +49,7 @@ const About = () => {
             <div>
                 <h1>Book your name for our upcoming events..</h1>
                 <div
-                    className="container education-bg-info   rounded-3" id="subscribe">
+                    className="container education-bg-info pb-2  rounded-3" id="subscribe">
 
 
                     <p>Get updates on sales, specials and more

@@ -10,6 +10,7 @@ import About from './components/About/About';
 import Header from './components/Header/Header';
 import Trainers from './components/Trainers/Trainers';
 import ContactUs from './components/ContactUs/ContactUs';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -45,7 +46,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
-
+        <Footer></Footer>
       </Router>
     </div >
   );

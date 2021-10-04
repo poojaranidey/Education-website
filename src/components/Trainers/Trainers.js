@@ -5,9 +5,9 @@ import "./Trainers.css"
 
 const Trainers = () => {
     return (
-        <div>
+        <div className="mb-5 py-5 ">
             <h1>Best trainers to guide you for best lessons</h1>
-            <div className="trainers">
+            <div className="trainers ">
 
                 <Card border="primary" style={{ width: '25rem' }}>
                     <Card.Img className="trainer-image" variant="top" src="https://webtend.net/demo/html/wellco/assets/images/portfolio/1.jpg" />
@@ -70,7 +70,7 @@ const Trainers = () => {
             </div>
             <Container className="bg-info">
                 <h1 className="text-white">Book our trainer</h1>
-                <Form>
+                <Form className="py-5">
                     <Row className="mb-3 mt-5">
                         <Form.Group as={Col} controlId="formGridEmail">
                             <Form.Label>Email</Form.Label>
@@ -93,7 +93,7 @@ const Trainers = () => {
                         <Form.Control placeholder="Apartment, studio, or floor" />
                     </Form.Group>
 
-                    <Row className="mb-3">
+                    <Row className="mb-3 py-5">
                         <Form.Group as={Col} controlId="formGridCity">
                             <Form.Label>City</Form.Label>
                             <Form.Control />
@@ -117,7 +117,7 @@ const Trainers = () => {
                         <Form.Check type="checkbox" label="Check me out" />
                     </Form.Group>
 
-                    <Button variant="primary" type="submit">
+                    <Button className="btn btn-dark mt-3" type="submit">
                         Submit
                     </Button>
                 </Form>

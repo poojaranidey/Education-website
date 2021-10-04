@@ -12,9 +12,9 @@ const Service = (props) => {
                 <img src={image} className="card-img-top" alt="" />
 
                 <div class="card-body">
-                    <h5 class="card-title">{name}</h5>
-                    <p class="card-text">{description}</p>
-                    <p class="card-text">{price}</p>
+                    <h5 class="card-title">Name:{name}</h5>
+                    <p class="card-text">Deascription:{description}</p>
+                    <p class="card-text">Price:{price}</p>
                 </div>
             </div>
 

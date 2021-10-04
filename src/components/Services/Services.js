@@ -13,7 +13,7 @@ const Services = () => {
     return (
 
         <Container>
-            <div className="course-container">
+            <div className="course-container mb-5">
                 {
                     courses.map(course => <Service
                         key={course.name}

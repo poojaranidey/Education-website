@@ -11,41 +11,38 @@ const Home = () => {
             <Carousel variant="dark">
                 <Carousel.Item>
                     <img
-                        className=" w-100 h-auto"
+                        className="slide-images w-75"
                         src="https://elearningindustry.com/wp-content/uploads/2020/02/what-to-check-before-an-online-course-purchase.png"
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h5>our best courses</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h1>BECOME A CODING MASTER</h1>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
-                        className="  w-100 h-100"
+                    <img className=" slide-images w-75"
                         src="https://elearningindustry.com/wp-content/uploads/2020/08/8-proven-steps-to-create-a-profitbale-online-course.jpg"
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h1>WRITE SUPER-EFFICIENT CODE</h1>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
-                        className=" images w-100 "
-                        src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201811/online-3412473_1920_1.jpeg?tz.RfsTe_UTLHiDqxmpG7PY_nTIBjwF7"
+                    <img className="slide-images w-75"
+                        src="https://cdni.iconscout.com/illustration/premium/thumb/student-achieved-online-course-certificate-2769745-2302763.png"
                         alt="Third slide"
                     />
                     <Carousel.Caption>
-                        <h5>Third slide label</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h1>CERTIFICATE OF COMPLETION</h1>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
             <div className="half-width d-flex p-5 m-5">
                 <div>
-                    <img className="w-100 course-details-img" src="https://webtend.net/demo/html/wellco/assets/images/about/image_1.jpg" alt="" />
+                    <img className="slide-images" src="https://webtend.net/demo/html/wellco/assets/images/about/image_1.jpg" alt="" />
                 </div>
                 <div className="course-details">
                     <h1>We Care About Your eduction For Better.</h1>
@@ -81,8 +78,7 @@ const Home = () => {
                             <Card.Body>
                                 <Card.Title>Self Coaching Scholars</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.
+                                    Learn the ins and outs of one of the fastest growing programming languages.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -93,8 +89,7 @@ const Home = () => {
                             <Card.Body>
                                 <Card.Title>Coach Certification </Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.
+                                    Apply your problem-solving skills to write cleaner code from the beginning.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -106,8 +101,7 @@ const Home = () => {
                             <Card.Body>
                                 <Card.Title> Powerful Coach</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.
+                                    Build your portfolio, prove your mastery with certificates, and prep for your next role.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
